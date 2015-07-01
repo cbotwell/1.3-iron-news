@@ -1,0 +1,14 @@
+nav, .content, footer {
+    width: 80%;
+    margin: auto;
+}
+nav {
+    background: black;
+}
+.content {
+    background: gray;
+}
+footer {
+    background: gray;
+    border-top: black solid 2px;
+}
