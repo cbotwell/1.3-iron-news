@@ -63,9 +63,16 @@ nav a:active {
 }
 .content ol {
     padding-left: 40px;
+    margin-right: 0px;
 }
 .content li {
     list-style: decimal;
+}
+.content li:nth-of-type(2n+1) {
+    background: inherit;
+}
+.content li:nth-of-type(2n) {
+    background: #CFD3D6;
 }
 .content a {
     color: black;
