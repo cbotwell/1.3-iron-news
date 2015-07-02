@@ -106,21 +106,16 @@ footer {
     width: 80%;
     margin: auto;
 }
-footer ul {
-    width: 100%;
-    margin: 0;
-    padding-right: o;
-}
-footer li {
+.footer-links li {
     padding-left: 5px;
     list-style: none;
     display: inline-block;
 }
-footer li:after {
+.footer-links li:after {
     color: black;
     content: "|";
 }
-footer li:last-of-type:after {
+.footer-links li:last-of-type:after {
     content: none;
 }
 .footer-links a {
@@ -128,11 +123,8 @@ footer li:last-of-type:after {
     text-decoration: none;
     padding-right: 15px;
 }
-footer a:hover {
-    color: white;
-}
-footer a:active {
-    color: red;
+.footer-links a:hover {
+    color: #747A8A;
 }
 .search {
     width: 20%;
