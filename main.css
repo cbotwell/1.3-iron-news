@@ -6,6 +6,7 @@ html {
 }
 nav, .content, footer {
     width: 80%;
+    max-width: 980px;
     margin: auto;
 }
 body {
@@ -33,6 +34,14 @@ nav h1 {
     width: 20px;
     height: 20px;
     margin-right: 5px;
+}
+span.icon:hover {
+    border: black solid 1px;
+    color: black;
+}
+span.icon:active {
+    color: #B4BED6;
+    border: #B4BED6 solid 1px;
 }
 nav li {
     padding-left: 15px;
@@ -65,8 +74,8 @@ nav a:active {
 .account li:first-of-type {
     display: block;
 }
-.account ul:hover li {
-    display: inline-block;
+ul.account:hover li {
+    display: block;
 }
 /* CONTENT */
 .content {
