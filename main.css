@@ -56,6 +56,18 @@ nav a:active {
 .account {
     float: right;
 }
+.account li {
+    display: none;
+}
+.account li:after {
+    content: none;
+}
+.account li:first-of-type {
+    display: block;
+}
+.account ul:hover li {
+    display: inline-block;
+}
 /* CONTENT */
 .content {
     background: #EDF1F5;
