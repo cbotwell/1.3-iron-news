@@ -13,12 +13,15 @@ body {
 }
 /* NAV */
 nav {
-    background: #7F7E7A;
+    background: #747A8A;
     padding: 5px;
     overflow: auto;
 }
 h1, .icon, nav ul, nav li {
     display: inline-block;
+}
+nav h1 {
+    font-weight: bold;
 }
 .icon {
     border: white solid 1px;
@@ -28,18 +31,21 @@ h1, .icon, nav ul, nav li {
     text-align: center;
     width: 25px;
     height: 25px;
+    margin-right: 5px;
 }
 nav li {
-    padding: 0 5px;
+    padding-left: 15px;
     list-style: none;
 }
 nav li:after {
-    color: black;
+    color: white;
     content: "|"
 }
 nav a {
+    padding-right: 15px;
     color: black;
     text-decoration: none;
+
 }
 nav a:hover {
     color: white;
@@ -52,7 +58,8 @@ nav a:active {
 }
 /* CONTENT */
 .content {
-    background: #E0E0E0;
+    background: #EDF1F5;
+    padding: 20px 5px;
 }
 .content ol {
     padding-left: 40px;
@@ -62,6 +69,11 @@ nav a:active {
 }
 .content a {
     color: black;
+    text-decoration: none;
+}
+.content a:hover {
+    color: #7F7E7A;
+    text-decoration: underline;
 }
 .content li a:last-of-type {
     color: #7F7E7A;
@@ -70,6 +82,13 @@ nav a:active {
 .content p {
     color: #7F7E7A;
     font-size: .6em;
+    padding-left: 15px;
+}
+.content p:first-of-type {
+    padding-top: 2px;
+}
+.content p:last-of-type {
+    padding-bottom: 10px;
 }
 .content li:before {
     content: url(https://raw.githubusercontent.com/TIY-LR-FEE-2015-June/assignments/develop/1.3-iron-news/assets/images/grayarrow.gif);
@@ -79,15 +98,21 @@ nav a:active {
 }
 /* FOOTER */
 footer {
-    background: #E0E0E0;
-    border-top: black solid 2px;
+    background: #EDF1F5;
+    border-top: #747A8A solid 2px;
+    padding: 20px 5px;
 }
 .footer-links {
     width: 80%;
     margin: auto;
 }
+footer ul {
+    width: 100%;
+    margin: 0;
+    padding-right: o;
+}
 footer li {
-    padding: 0 5px;
+    padding-left: 5px;
     list-style: none;
     display: inline-block;
 }
@@ -95,12 +120,13 @@ footer li:after {
     color: black;
     content: "|";
 }
-footer li:last-of-type {
+footer li:last-of-type:after {
     content: none;
 }
-footer a {
+.footer-links a {
     color: black;
     text-decoration: none;
+    padding-right: 15px;
 }
 footer a:hover {
     color: white;
@@ -110,7 +136,12 @@ footer a:active {
 }
 .search {
     width: 20%;
-}
-.search p, .search input {
     margin: auto;
+    padding-top: 20px;
+}
+.search p {
+    text-align: center;
+}
+.search input {
+    width: 100%;
 }
