@@ -8,12 +8,36 @@ nav, .content, footer {
     width: 80%;
     margin: auto;
 }
+/* NAV */
 nav {
-    background: black;
+    background: gray;
+    font-family: Helvetica, Arial, Sans-Serif;
+    padding: 5px;
 }
+.icon {
+    border: white solid 1px;
+    color: white;
+    padding: 5px;
+}
+nav li {
+    list-style: none;
+}
+nav li:after {
+    color: black;
+    content: "|"
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color: white;
+}
+/* CONTENT */
 .content {
     background: gray;
 }
+/* FOOTER */
 footer {
     background: gray;
     border-top: black solid 2px;
