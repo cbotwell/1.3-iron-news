@@ -66,6 +66,12 @@ nav a:active {
 }
 .account li {
     display: none;
+    margin-right: -5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.account li:first-of-type {
+    margin-top: -5px;
 }
 .account li:after {
     content: none;
@@ -84,11 +90,12 @@ ul.account:hover li {
 }
 .account li {
     background: #747A8A;
+    text-align: center;
 }
 /* CONTENT */
 .content {
     background: #EDF1F5;
-    padding: 20px 5px;
+    padding: 20px 0px 20px 5px;
 }
 .content ol {
     padding-left: 40px;
