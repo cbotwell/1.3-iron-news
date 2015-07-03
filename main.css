@@ -16,7 +16,6 @@ body {
 nav {
     background: #747A8A;
     padding: 5px;
-    overflow: auto;
 }
 h1, .icon, nav ul, nav li {
     display: inline-block;
@@ -74,8 +73,17 @@ nav a:active {
 .account li:first-of-type {
     display: block;
 }
+.account li:hover {
+    background: #B4BED6;
+}
+.account a:active {
+    color: black;
+}
 ul.account:hover li {
     display: block;
+}
+.account li {
+    background: #747A8A;
 }
 /* CONTENT */
 .content {
